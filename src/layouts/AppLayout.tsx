@@ -83,41 +83,4 @@ const styles = StyleSheet.create({
 
 });
 
-// const styles = StyleSheet.create({
-//   container: {
-//    position: 'relative',
-//    display: 'flex',
-//    flexDirection: 'row',
-//    height: '100%',
-//    width: '100%',
-//    backgroundColor: '#000',
-//  },
-//  sidebar: {
-//   //  position: 'absolute',
-//   //  left: 0,
-//    width: 60,
-//    height: '100%',
-//    zIndex: 1,
-//    opacity: 1,
-//  },
-//  sidebarfFullScreen: {
-//    opacity: 0,
-//    width: 60,
-//  },
-//  content: {
-//   flex: 1,
-//   //  position: 'absolute',
-//   //  top: 0,
-//   //  left: 60,
-//    height: '100%',
-//    width: '100%',
-//    zIndex: 0,
-//  },
-//  contentFullScreen: {
-//    left: 0,
-//    // width: '100%', -> TODO: Bug - Don't change width
-//  },
-
-// });
-
 export default AppLayout;
